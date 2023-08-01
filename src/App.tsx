@@ -9,14 +9,10 @@ const App = () => {
       </GridItem>
 
       <Show above="lg">
-        <GridItem bg="blue.300" area="side">
-          Sidebar
-        </GridItem>
+        <GridItem area="side">Sidebar</GridItem>
       </Show>
 
-      <GridItem bg="pink.300" area="main">
-        Main
-      </GridItem>
+      <GridItem area="main">Main</GridItem>
     </Grid>
   );
 };
