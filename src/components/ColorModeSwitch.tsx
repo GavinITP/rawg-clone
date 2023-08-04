@@ -9,9 +9,9 @@ const ColorModeSwitch = () => {
       <IconButton
         icon={
           colorMode === "light" ? (
-            <Icon as={MdLightMode} boxSize={6} />
+            <Icon as={MdLightMode} boxSize={8} />
           ) : (
-            <Icon as={MdDarkMode} boxSize={6} />
+            <Icon as={MdDarkMode} boxSize={8} />
           )
         }
         aria-label="toggle color mode"
